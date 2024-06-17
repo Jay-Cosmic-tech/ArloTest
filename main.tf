@@ -36,7 +36,7 @@ resource "aws_security_group" "rds_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-/* Below settings are recieved from such as Engine version are picked from Current AWS SQL Sever List */
+/* Below settings are recieved from AWS. Such as Engine version are picked from Current AWS SQL Sever List */
 resource "aws_db_instance" "mssql" {
   identifier              = "mssql-instance"
   allocated_storage       = 20
