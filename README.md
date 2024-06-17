@@ -1,6 +1,8 @@
 # ArloTest
 Creating this repository for Arlo Platform Job Interview. 
 
+Problem 1 - Question 2
+
 Q: How would you ensure that the above setup is configured to be deployed to multiple environments via a pipeline. No need to come up with   
    pipeline related code, just a brief description with a strategy and what needs to be considered, would do.
 A:Varible Files: We can use varible files to define environment-specific Values.
